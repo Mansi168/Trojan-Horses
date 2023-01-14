@@ -18,7 +18,7 @@ const HomeSection = () => {
         <HomeContent>
             <HomeH1>Make your life more Blissful</HomeH1>
             <HomeP>
-                Sign up now and give your life a second chance
+               <b>Sign up now and give your life a second chance</b> 
             </HomeP>
             <HomeBtnWrapper>
                 <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
