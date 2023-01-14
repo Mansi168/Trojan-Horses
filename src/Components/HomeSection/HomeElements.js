@@ -33,7 +33,7 @@ export const HomeBg = styled.div`
     width: 100%;
     height: 100%;
     overflow: hidden;
-   background-image:url(https://i.ytimg.com/vi/UChNiwXzlY0/maxresdefault.jpg);
+   background-image:url(https://i.pinimg.com/564x/8b/a7/e6/8ba7e64fed3082fc86a5bff74ae6a378.jpg);
    background-repeat:no-repeat;
    background-size:cover;
 `
@@ -50,7 +50,7 @@ export const HomeContent = styled.div`
     z-index: 3;
     max-width: 1200px;
     position: absolute;
-    padding: 8px 24px;
+    padding: 6px 24px;
     display: flex;
     flex-direction: column;
     align-items: center;

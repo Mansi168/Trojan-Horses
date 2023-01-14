@@ -3,22 +3,22 @@ import {FaBars} from 'react-icons/fa'
 import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, Navitem, NavLinks,NavBtn, NavBtnLink} from './NavbarElements';
 
 const Navbar = ({toggle}) => {
-    const [scrollNav,setScrollNav]= useState(false)
- const changeNav=()=>{
-  if(window.scrollY>= 80){
-    setScrollNav(true)
-  }else{
-    setScrollNav(false)
-  }
- }
- useEffect(()=>{
-  window.addEventListener('scroll',changeNav)
- },[])
+//     const [scrollNav,setScrollNav]= useState(false)
+//  const changeNav=()=>{
+//   if(window.scrollY>= 80){
+//     setScrollNav(true)
+//   }else{
+//     setScrollNav(false)
+//   }
+//  }
+//  useEffect(()=>{
+//   window.addEventListener('scroll',changeNav)
+//  },[])
   return (
     <>
-      <Nav scrollNav={scrollNav}>
+      <Nav >
         <NavbarContainer>
-            <NavLogo to='/'>UMatter</NavLogo>
+            <NavLogo to='/'>Bloggy's</NavLogo>
             <MobileIcon onClick={toggle}>
                 <FaBars/>
             </MobileIcon>

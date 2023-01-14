@@ -16,9 +16,9 @@ const HomeSection = () => {
             {/* <VideoBg  autoPlay loop muted src={Video} type='video/mp4'/>  */}
         </HomeBg>
         <HomeContent>
-            <HomeH1>Make your life more Blissful</HomeH1>
+            <HomeH1>Write your first Blog here!</HomeH1>
             <HomeP>
-               <b>Sign up now and give your life a second chance</b> 
+               <b>Join now to connect with your peers and share your blogs and plethora of experiences</b> 
             </HomeP>
             <HomeBtnWrapper>
                 <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
