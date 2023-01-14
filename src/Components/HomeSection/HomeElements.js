@@ -31,18 +31,20 @@ export const HomeBg = styled.div`
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     overflow: hidden;
-   
+   background-image:url(https://i.ytimg.com/vi/UChNiwXzlY0/maxresdefault.jpg);
+   background-repeat:no-repeat;
+   background-size:cover;
 `
 
-export const VideoBg = styled.video`
-    width: 100%;
-    height: 100vh;
-    -o-object-fit: cover;
-    object-fit: cover;
+// export const VideoBg = styled.video`
+//     width: 100%;
+//     height: 100vh;
+//     -o-object-fit: cover;
+//     object-fit: cover;
    
-`
+// `
 
 export const HomeContent = styled.div`
     z-index: 3;
