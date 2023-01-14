@@ -2,7 +2,10 @@ import styled from 'styled-components'
 
 export const AboutContainer = styled.div`
     color: #fff;
-    background: ${({lightBg})=> (lightBg ? '#f9f9f9' : '#010606')};
+    /* background: ${({lightBg})=> (lightBg ? '#f9f9f9' : '#010606')}; */
+    background-image :url(https://static.vecteezy.com/system/resources/thumbnails/003/123/185/small/saber-neon-glow-color-flowing-rectangle-background-free-photo.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
 
     @media screen and (max-width: 768px){
         padding: 100px 0;
