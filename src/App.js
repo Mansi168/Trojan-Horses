@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages';
 // import Sidebar from './Sidebar';
-import Searchbar from './Components/Searchbar';
+// import Searchbar from './Components/Searchbar';
 
 // window.$crisp=[];
 // window.CRISP_WEBSITE_ID="e79efdd2-abee-4a1e-b868-c7929585ebd9";
@@ -18,9 +18,9 @@ function App() {
   
       </Routes>
     </BrowserRouter>
-    <div className='App'>
+    {/* <div className='App'>
       <Searchbar placeholder="Search" />
-    </div>
+    </div> */}
     </>
   );
 }
