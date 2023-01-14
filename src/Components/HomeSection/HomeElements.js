@@ -33,18 +33,18 @@ export const HomeBg = styled.div`
     width: 100%;
     height: 100%;
     overflow: hidden;
-   background-image:url(https://i.pinimg.com/564x/8b/a7/e6/8ba7e64fed3082fc86a5bff74ae6a378.jpg);
+   /* background-image:url(https://i.ytimg.com/vi/z-p_9mPgIO8/maxresdefault.jpg);
    background-repeat:no-repeat;
-   background-size:cover;
+   background-size:cover; */
 `
 
-// export const VideoBg = styled.video`
-//     width: 100%;
-//     height: 100vh;
-//     -o-object-fit: cover;
-//     object-fit: cover;
+export const VideoBg = styled.video`
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
    
-// `
+`
 
 export const HomeContent = styled.div`
     z-index: 3;

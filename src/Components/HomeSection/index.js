@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Video from '../../videos/video1.mp4'
-import { HomeContainer, HomeBg, HomeContent, HomeBtnWrapper,HomeH1, HomeP, ArrowForward, ArrowRight } from './HomeElements'
+import { HomeContainer, HomeBg, HomeContent,VideoBg, HomeBtnWrapper,HomeH1, HomeP, ArrowForward, ArrowRight } from './HomeElements'
 import {Button} from '../ButtonElements'
 
 const HomeSection = () => {
@@ -13,7 +13,7 @@ const HomeSection = () => {
   return (
     <HomeContainer>
         <HomeBg>
-            {/* <VideoBg  autoPlay loop muted src={Video} type='video/mp4'/>  */}
+            <VideoBg  autoPlay loop muted src={Video} type='video/mp4'/> 
         </HomeBg>
         <HomeContent>
             <HomeH1>Write your first Blog here!</HomeH1>
