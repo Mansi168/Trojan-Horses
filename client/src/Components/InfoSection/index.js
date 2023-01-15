@@ -5,7 +5,7 @@ import { AboutContainer, AboutWrapper, AboutRow,Column1, Column2, Column3,Column
 const About = ({ id1,id2,id3, imgStart, imgStart1,imgStart2,headline, description,headline1, description1,headline2, description2,  img,img1,img2, alt}) => {
   return (
     <>
-      <AboutContainer  >
+      <AboutContainer id='about' >
       <AboutH1>About Bloggy's</AboutH1>
         <AboutWrapper>
             <AboutRow >
