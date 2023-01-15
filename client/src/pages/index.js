@@ -7,6 +7,7 @@ import Navbar from '../Components/Navbar';
 import Blogs from '../Components/Blogs';
 import Sidebar from '../Sidebar';
 import Searchbar from '../Components/Searchbar';
+import Services from '../Components/Services'
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -23,6 +24,7 @@ const Home = () => {
      <InfoSection {...homeObjOne}/>
     <Blogs/>
     <Searchbar placeholder="Search"/>
+    <Services/>
     <Footer/>
 
 
