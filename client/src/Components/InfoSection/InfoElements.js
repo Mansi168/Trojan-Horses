@@ -2,20 +2,35 @@ import styled from 'styled-components'
 
 export const AboutContainer = styled.div`
     color: #fff;
-    /* background: ${({lightBg})=> (lightBg ? '#f9f9f9' : '#010606')}; */
+   
+  
     background-image :url(https://static.vecteezy.com/system/resources/thumbnails/003/123/185/small/saber-neon-glow-color-flowing-rectangle-background-free-photo.jpg);
     background-repeat:no-repeat;
     background-size:cover;
 
     @media screen and (max-width: 768px){
         padding: 100px 0;
+       
     }
 `
+export const AboutH1=styled.h1`
 
+margin-bottom: 60px;
+text-align:center;
+    font-size: 70px;
+    line-height: 1.1;
+    font-weight: 300;
+    /* text-transform: uppercase; */
+    color: #ff00fe;
+    text-shadow: 0 0 5px black, 0 0 10px black, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+    /* text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228dff,
+      0 0 70px #228dff, 0 0 80px #228dff, 0 0 100px #228dff, 0 0 150px #228dff; */
+   
+`
 export const AboutWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 860px;
+    height: 1300px;
     width: 100%;
     max-width: 1100px;
     margin-right: auto;
@@ -28,18 +43,30 @@ export const AboutRow = styled.div`
     grid-auto-columns: minmax(auto, 1fr);
     align-items: center;
     grid-template-areas: ${({imgStart})=> (imgStart ? `'col2 col1'` : `'col1 col2'`)};
+    
 
     @media screen and (max-width: 768px){
         grid-template-areas: ${({imgStart})=> (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
+        
 
     }
 `;
 export const Column1 = styled.div`
+    margin-bottom: 730px;
+    padding: 0 15px;
+    grid-area: col1;
+`;
+export const Column3 = styled.div`
     margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col1;
 `;
 export const Column2 = styled.div`
+    margin-bottom: 730px;
+    padding: 0 15px;
+    grid-area: col2;
+`;
+export const Column4 = styled.div`
     margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col2;
@@ -49,44 +76,48 @@ export const TextWrapper = styled.div`
     padding-top: 0;
     padding-bottom: 60px;
 `
-export const TopLine = styled.p`
-    color: #01bf71;
-    font-size: 16px;
-    line-height: 16px;
-    font-weight: 700;
-    letter-spacing: 1.4px;
-    text-transform: uppercase;
-    margin-bottom: 16px;
-`
+export const Column5 = styled.div`
+    margin-top: 794px;
+    padding: 0 15px;
+    grid-area: col1;
+`;
+export const Column6 = styled.div`
+    margin-top: 794px;
+    padding: 0 15px;
+    grid-area: col2;
+`;
 
 export const Heading = styled.h1`
     margin-bottom: 24px;
     font-size: 48px;
     line-height: 1.1;
     font-weight: 600;
-    color: ${({lightText})=> (lightText ? '#f7f8fa' : '#010606')};
-
+    color:white;
+    text-align:center; 
     @media screen and (max-width: 480px){
         font-size: 32px;
     }
 `
 export const SubTitle = styled.p`
-    max-width: 440px;
+    max-width: 450px;
     margin-bottom: 35px;
-    font-size: 18px;
-    line-height: 24px;
-    color: ${({darkText})=> (darkText ? '#010606' : '#fff')}; 
+    font-size: 20px;
+    font-weight:70px;
+    line-height: 27px;
+    color: white; 
+    text-align:center;
 `
-export const BtnWrap = styled.div`
-    display: flex;
-    justify-content: flex-start;
-`
+
 export const ImgWrap = styled.div`
     max-width: 555px;
-    height: 100%
+    height: 100%;
+    
 `
 export  const Img = styled.img`
     width: 100%;
     margin: 0 0 10px 0;
     padding-right: 0;
+    @media screen and (max-width: 768px){
+       display:none;
+    }
 `
