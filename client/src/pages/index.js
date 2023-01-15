@@ -7,7 +7,6 @@ import Navbar from '../Components/Navbar';
 import Blogs from '../Components/Blogs';
 import Sidebar from '../Sidebar';
 import Searchbar from '../Components/Searchbar';
-import Login from '../Components/account/Login';
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -22,7 +21,6 @@ const Home = () => {
      <Navbar toggle={toggle}/> 
      <HomeSection/>
      <InfoSection {...homeObjOne}/>
-     <Login/>
     <Blogs/>
     <Searchbar placeholder="Search"/>
     <Footer/>
@@ -32,4 +30,4 @@ const Home = () => {
   )
 }
 
-export default Home;
+export default Home
