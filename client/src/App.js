@@ -7,7 +7,7 @@ import { BrowserRouter, Routes, Route, Outlet, Navigate } from 'react-router-dom
 import DataProvider from './context/DataProvider';
 
 import Home from './pages';
-
+import SigninPage from './pages/signIn';
 import Login from './Components/account/Login';
 
 // import Sidebar from './Sidebar';

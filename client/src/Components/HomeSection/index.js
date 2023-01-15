@@ -11,7 +11,7 @@ const HomeSection = () => {
     }
 
   return (
-    <HomeContainer id="home">
+    <HomeContainer>
         <HomeBg>
             <VideoBg  autoPlay loop muted src={Video} type='video/mp4'/> 
         </HomeBg>
