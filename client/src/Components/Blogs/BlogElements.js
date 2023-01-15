@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const BlogContainer=styled.div`
-height:320px;
+height:300px;
 display:flex;
 flex-direction:column;
 justify-content:center;
@@ -13,10 +13,10 @@ background-repeat:no-repeat;
 background-size:cover;
 
 @media screen and (max-width:768px){
-    height:1100px;
+    height:150px;
 }
 @media screen and (max-width:480px){
-    height:1300 px;
+    height:130 px;
 }
 `
 export const BlogH1=styled.h1`
@@ -27,7 +27,7 @@ margin-bottom: 64px;
     font-size: 70px;
     line-height: 1.1;
     font-weight: 300;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: white;
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
     /* text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228dff,

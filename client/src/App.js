@@ -3,6 +3,8 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages';
 import SigninPage from './pages/signIn';
+import ScrollButton from './Components/GoToTop/ScrollButton';
+
 // import Sidebar from './Sidebar';
 // import Searchbar from './Components/Searchbar';
 
@@ -13,6 +15,7 @@ function App() {
   return (
     <>
     <BrowserRouter>
+    <ScrollButton />
       <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route exact path="/signIn" element={<SigninPage/>}/>
@@ -20,6 +23,7 @@ function App() {
   
       </Routes>
     </BrowserRouter>
+    
     {/* <div className='App'>
       <Searchbar placeholder="Search" />
     </div> */}
