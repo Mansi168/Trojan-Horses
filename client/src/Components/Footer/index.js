@@ -1,7 +1,8 @@
 import React from 'react'
 import { FaFacebook, FaLinkedin, FaYoutube, FaInstagram, FaTwitter } from 'react-icons/fa';
 import { FooterContainer,FooterWrap, FooterLinksContainer,FooterLinksWrapper,FooterLinkItems, FooterLinkTitle, FooterLink, SocialMedia, SocialMediaWrap, SocialLogo, WebsiteRights, SocialIconsLink, SocialIcons } from './FooterElements';
-
+// import { scrollToTop as scroll} from 'react-scroll/modules/mixins/animate-scroll';
+import ScrollButton from '../GoToTop/ScrollButton';
 const Footer = () => {
   return (
     <FooterContainer>
@@ -13,14 +14,13 @@ const Footer = () => {
                        <FooterLink to="/signin">How it Works</FooterLink>
                        <FooterLink to="/signin">Testimonials</FooterLink>
                        <FooterLink to="/signin">Careers</FooterLink>
-                       <FooterLink to="/signin">Investors</FooterLink>
                        <FooterLink to="/signin">Terms of Services</FooterLink>
                 </FooterLinkItems>
                 <FooterLinkItems>
                     <FooterLinkTitle>Contact Us</FooterLinkTitle>
                        <FooterLink to="/">Contact</FooterLink>
                        <FooterLink to="/">Support</FooterLink>
-                       <FooterLink to="/">Destinations</FooterLink>
+                       
                        <FooterLink to="/">Sponsorships</FooterLink>
                 </FooterLinkItems>
             </FooterLinksWrapper>
@@ -44,11 +44,11 @@ const Footer = () => {
          </FooterLinksContainer>
          <SocialMedia>
             <SocialMediaWrap>
-                <SocialLogo to='/'>
-                    UMatter
+                <SocialLogo to='/'onClick={ScrollButton}>
+                   Bloggy's
                 </SocialLogo>
-                <WebsiteRights>UMatter © {new Date().getFullYear()}
-                All rights reserved.</WebsiteRights>
+                <WebsiteRights> Bloggy's © {new Date().getFullYear()}
+                 All rights reserved.</WebsiteRights>
                 <SocialIcons>
                 <SocialIconsLink href="/" target="_blank"
                 area-label="Facebook">
